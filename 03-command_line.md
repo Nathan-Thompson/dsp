@@ -12,7 +12,18 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > cd-change wd to folder. .
+. -enclosing folder 
+pushd/popd - save/return to cwd
+mv file /dest/ - move object
+cp file newfile -r - copy/copy contents
+q -quit
+less - view file
+| < - pipe right/left
+>  >> write left to write
+* - matches pattern
+$ - access value of a variable 
+
 
 ---
 
@@ -21,7 +32,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls lists the cw directory contents. -a includes files that start with . -l includes author and modification inf -h includes file sizes, but only when used with -l
 
 ---
 
@@ -30,7 +41,7 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It combines the results of a previous command (like find) and uses them to execute the new command. Such as find '*.txt' | xargs rm  
 
 ---
 
