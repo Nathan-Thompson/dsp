@@ -20,7 +20,7 @@ cp file newfile -r - copy/copy contents
 q -quit
 less - view file
 | < - pipe right/left
->  >> write left to write
+'>'  '>>' write left to write
 * - matches pattern
 $ - access value of a variable 
 
